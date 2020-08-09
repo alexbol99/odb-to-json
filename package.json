@@ -1,0 +1,15 @@
+{
+  "name": "odb-to-json",
+  "version": "1.0.0",
+  "description": "Convert ODB++ job to json format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alex Bol",
+  "license": "ISC",
+  "dependencies": {
+    "@flatten-js/core": "^1.2.10"
+  }
+}
