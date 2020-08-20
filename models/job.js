@@ -1,10 +1,9 @@
+
 class Job {
-    constructor() {
-        this.filename = "";
-        this.title = "";
-        this.profiles = [];   // array of FlattenJS Polygons
-        this.materials = [];  // array of FlattenJS Polygons
-        this.shapes = [];     // array of other FlattenJS shapes
+    constructor(tree) {
+        this.name = tree.path.split('\/').pop() || "";
+        this.matrix = null;
+        this.steps = [];
     }
 
     // get box() {
